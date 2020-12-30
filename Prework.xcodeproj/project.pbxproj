@@ -14,6 +14,7 @@
 		29677FBF259BDA9B0057B1D5 /* Prework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29677FBD259BDA9B0057B1D5 /* Prework.xcdatamodeld */; };
 		29677FC1259BDA9D0057B1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29677FC0259BDA9D0057B1D5 /* Assets.xcassets */; };
 		29677FC4259BDA9D0057B1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29677FC2259BDA9D0057B1D5 /* LaunchScreen.storyboard */; };
+		29677FCC259BF49D0057B1D5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29677FCB259BF49D0057B1D5 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		29677FC0259BDA9D0057B1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29677FC3259BDA9D0057B1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29677FC5259BDA9D0057B1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29677FCB259BF49D0057B1D5 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				29677FB6259BDA9B0057B1D5 /* SceneDelegate.swift */,
 				29677FB8259BDA9B0057B1D5 /* ViewController.swift */,
 				29677FBA259BDA9B0057B1D5 /* Main.storyboard */,
+				29677FCB259BF49D0057B1D5 /* SettingViewController.swift */,
 				29677FC0259BDA9D0057B1D5 /* Assets.xcassets */,
 				29677FC2259BDA9D0057B1D5 /* LaunchScreen.storyboard */,
 				29677FC5259BDA9D0057B1D5 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29677FCC259BF49D0057B1D5 /* SettingViewController.swift in Sources */,
 				29677FB9259BDA9B0057B1D5 /* ViewController.swift in Sources */,
 				29677FB5259BDA9B0057B1D5 /* AppDelegate.swift in Sources */,
 				29677FBF259BDA9B0057B1D5 /* Prework.xcdatamodeld in Sources */,
