@@ -112,7 +112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.792156862745098" green="0.89411764705882346" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -149,7 +149,6 @@
         <!--Navigation Controller-->
         <scene sceneID="L80-Op-N9U">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vZI-s9-2XE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YPr-fb-PYR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jb0-DK-vBG">
@@ -161,13 +160,13 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TMV-Qu-aTM"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZI-s9-2XE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-236" y="-53"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="04m-hb-bqm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T3v-9d-YEW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Sr7-cF-NQe" customClass="SettingViewController" customModule="Prework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Hk-qB-fBw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -229,7 +228,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.792156862745098" green="0.89411764705882346" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="EFI-8C-dp7"/>
                         <connections>
@@ -242,6 +241,7 @@
                         <outlet property="tip2" destination="eBc-YX-hkz" id="rmY-vb-80N"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T3v-9d-YEW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="GTm-Lo-JiB">
                     <connections>
                         <action selector="onTap:" destination="Sr7-cF-NQe" id="tYl-B2-pQy"/>
