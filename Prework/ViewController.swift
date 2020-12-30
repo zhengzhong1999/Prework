@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var tip1 = "15"
-    var tip2 = "18"
-    var tip3 = "20"
+    var tip1: String = "15"
+    var tip2: String = "18"
+    var tip3: String = "20"
     
     @IBOutlet weak var billField: UITextField!
     
@@ -41,9 +41,9 @@ class ViewController: UIViewController {
         total.text = "$0.00"
         size.text = "0"
         averagePay.text = "$0.00"
-        tipControl.setTitle(String(tip1)+"%", forSegmentAt: 0)
-        tipControl.setTitle(String(tip2)+"%", forSegmentAt: 1)
-        tipControl.setTitle(String(tip3)+"%", forSegmentAt: 2)
+        tipControl.setTitle((tip1 ?? "0")+"%", forSegmentAt: 0)
+        tipControl.setTitle((tip2 ?? "0")+"%", forSegmentAt: 1)
+        tipControl.setTitle((tip3 ?? "0")+"%", forSegmentAt: 2)
         
     }
     
@@ -54,9 +54,9 @@ class ViewController: UIViewController {
         total.text = "$0.00"
         size.text = "0"
         averagePay.text = "$0.00"
-        tipControl.setTitle(String(tip1)+"%", forSegmentAt: 0)
-        tipControl.setTitle(String(tip2)+"%", forSegmentAt: 1)
-        tipControl.setTitle(String(tip3)+"%", forSegmentAt: 2)
+          tipControl.setTitle((tip1 ?? "0")+"%", forSegmentAt: 0)
+          tipControl.setTitle((tip2 ?? "0")+"%", forSegmentAt: 1)
+          tipControl.setTitle((tip3 ?? "0")+"%", forSegmentAt: 2)
     }
     
     

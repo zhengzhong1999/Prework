@@ -15,6 +15,7 @@ class SettingViewController: UIViewController {
     
     @IBOutlet weak var tip2: UITextField!
     
+    
     @IBOutlet weak var tip3: UITextField!
     
     override func viewDidLoad() {
@@ -28,9 +29,9 @@ class SettingViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton) {
 
         let VC = self.navigationController?.viewControllers[0] as? ViewController
-        VC?.tip1 = tip1.text ?? "0"
-        VC?.tip2 = tip2.text ?? "0"
-        VC?.tip3 = tip3.text ?? "0"
+        VC!.tip1 = tip1.text!
+        VC!.tip2 = tip2.text!
+        VC!.tip3 = tip3.text!
         self.navigationController?.popViewController(animated: true)
         
     }
